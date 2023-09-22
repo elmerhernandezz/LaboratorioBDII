@@ -73,3 +73,9 @@ Opciones:
 *Gestionar tabla Cargos
 	- Consultar (Select)
 
+Rol:Panadero
+Opciones:
+*Gestionar tabla inventarios
+	- Consultar (Select)
+* Gestionar tabla productos:
+	- Consultar (Select)
