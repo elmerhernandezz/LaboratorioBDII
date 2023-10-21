@@ -43,8 +43,8 @@ create table Cargos(
 go
 create table Empleados(
 	ID_Empleado int primary key identity(1,1),
-	Nombres_Empleado varchar(200) not null,
-	Apellidos_Empleado varchar(200) not null,
+	NombresEmpleado varchar(200) not null,
+	ApellidosEmpleado varchar(200) not null,
 	DUI varchar(10) not null,
 	ISSS varchar(13) not null,
 	FechaNacEmpleado date not null,
@@ -84,8 +84,8 @@ create table Usuarios(
 go
 create table Clientes(
 	ID_Cliente int primary key identity(1,1),
-	Nombres_Cliente varchar(200) not null,
-	Apellidos_Cliente varchar(200) not null,
+	NombresCliente varchar(200) not null,
+	ApellidosCliente varchar(200) not null,
 	DUI varchar(10),
 	ID_Direccion int,
 	Telefono varchar(10)
@@ -95,8 +95,8 @@ create table Clientes(
 go
 create table Productos(
 	ID_Producto int primary key identity(1,1),
-	Nombre_Producto varchar(200) not null,
-	Precio_Unitario decimal(5,2) not null,
+	NombreProducto varchar(200) not null,
+	PrecioUnitario decimal(5,2) not null,
 	Descripcion varchar(400)
 );
 -- PROVEEDORES
